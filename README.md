@@ -40,7 +40,7 @@ acp fileName.py "a python file got created!"
 ```bash
 function acp() {
   if [ -z "$1" ] || [ -z "$2" ]; then
-    echo "Oops! You forgot something 🤔 Usage: acp <file_path> <commit_message>"
+    echo "Oops! You forgot something :( Usage: acp <file_path> <commit_message>"
     return 1
   fi
 
